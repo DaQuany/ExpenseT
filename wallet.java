@@ -24,6 +24,6 @@ public class wallet {
 
     @Override
     public String toString() {
-        return "Expense(date=" + date + ", description=" + description + ", amount=" + amount + ")";
+        return date + " / " + description + " / " + amount;
     }
 }
